@@ -56,8 +56,8 @@ imgType.addEventListener("change", () => {
     alert('extensão errada')
   } else {
     switch (imgType.value) {
-      case 'jpeg':
-        imageType = 'image/jpeg';
+      case 'jpg':
+        imageType = 'image/jpg';
         break;
       case 'png':
         imageType = 'image/png';
